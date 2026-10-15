@@ -97,6 +97,10 @@ ul, ol, dl { margin: 0; padding: 0; list-style: none; }
   transform: scaleX(0);
   transform-origin: left;
 }
+html[dir="rtl"] .scroll-progress-bar {
+  transform-origin: right;
+  background: linear-gradient(270deg, var(--accent), var(--accent-strong));
+}
 
 /* ---------- header ---------- */
 .site-header {
